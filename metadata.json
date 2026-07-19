@@ -1,0 +1,6 @@
+{
+  "name": "Estuscia Investment Portal",
+  "description": "Official investment web portal for Estuscia Group featuring live return simulator, lead capture, and interactive AI wealth advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
