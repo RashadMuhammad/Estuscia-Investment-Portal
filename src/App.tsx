@@ -61,10 +61,10 @@ export default function App() {
         <Hero onReserveClick={handleApplyInvestment} />
 
         {/* Dynamic Return Simulator Slider */}
-        <ROICalculator onApply={handleApplyInvestment} />
+        {/* <ROICalculator onApply={handleApplyInvestment} /> */}
 
         {/* Reintroduced & Beautified Estuscia Investment Plans Carousel/Cards */}
-        <InvestmentPlans onSelectPlan={handleApplyInvestment} />
+        {/* <InvestmentPlans onSelectPlan={handleApplyInvestment} /> */}
 
         {/* Pillars / Values matching poster icons */}
         <Pillars />

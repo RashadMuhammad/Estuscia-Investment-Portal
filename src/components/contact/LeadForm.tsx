@@ -314,7 +314,7 @@ export default function LeadForm({ prefilledAmount, onSuccess }: LeadFormProps) 
                 </div>
 
                 {/* WhatsApp Checkbox */}
-                <div className="flex items-center gap-2.5 py-1">
+                {/* <div className="flex items-center gap-2.5 py-1">
                   <input
                     type="checkbox"
                     id="same-phone"
@@ -325,7 +325,7 @@ export default function LeadForm({ prefilledAmount, onSuccess }: LeadFormProps) 
                   <label htmlFor="same-phone" className="text-xs font-semibold text-slate-500 dark:text-slate-400 cursor-pointer">
                     WhatsApp is the same as my mobile number
                   </label>
-                </div>
+                </div> */}
 
                 {/* WhatsApp custom input (if unchecked) */}
                 {!sameAsPhone && (
