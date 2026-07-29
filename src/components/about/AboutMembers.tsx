@@ -4,51 +4,51 @@ import { motion } from "motion/react";
 export default function AboutMembers() {
   const members = [
     {
-      name: "Rashad Muhammad",
-      role: "Founder & Managing Director",
-      bio: "Leading Estuscia Group's strategic vision and global wealth operations. Committed to structuring secure, high-yield commercial capital opportunities and expanding our institutional-grade private placements.",
-      initials: "RM",
+      name: "Shahzeen Khalid",
+      role: "Founder & Chief Executive Officer (CEO)",
+      bio: "Leading the vision, strategy, and long-term growth of Estuscia Group. Responsible for building the organization's ecosystem, driving innovation, creating strategic partnerships, and ensuring every venture aligns with the company's mission of creating sustainable businesses with global impact.",
+      initials: "SK",
       color: "from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500",
       accent: "bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400",
       linkedin: "#",
-      email: "rashad007muhammad@gmail.com"
+      email: "ceo@estuscia.com"
     },
     {
-      name: "Marcus Vance",
-      role: "Chief Investment Officer (CIO)",
-      bio: "An institutional risk expert with over 12 years of expertise across commercial bridge accounts and capital allocation. Marcus supervises our algorithmic risk-mitigation portfolios and high-liquidity assets.",
-      initials: "MV",
+      name: "Akshay M A",
+      role: "Chief Operating Officer (COO)",
+      bio: "Oversees the company's daily operations, legal compliance, financial administration, and business execution. Ensures operational efficiency, regulatory compliance, resource management, and seamless coordination across all departments to support sustainable organizational growth.",
+      initials: "AM",
       color: "from-sky-500 to-blue-600 dark:from-sky-400 dark:to-blue-500",
       accent: "bg-sky-50 dark:bg-sky-950/40 text-sky-600 dark:text-sky-400",
       linkedin: "#",
-      email: "marcus.vance@estuscia.com"
+      email: "coo@estuscia.com"
     },
     {
-      name: "Elena Rostova",
-      role: "Head of Compliance & Escrow Operations",
-      bio: "Ensures absolute regulatory alignment, multi-signature escrow protocol checks, and capital isolation practices. Elena protects our private portfolios with stringent compliance standards.",
-      initials: "ER",
+      name: "Riza Mathiyam",
+      role: "Chief of Staff (COS)",
+      bio: "Works closely with the CEO to execute strategic initiatives, coordinate cross-functional teams, monitor organizational priorities, and improve internal communication. Acts as the central link between leadership and departments, ensuring decisions are implemented effectively and business objectives remain on track.",
+      initials: "RM",
       color: "from-indigo-500 to-purple-600 dark:from-indigo-400 dark:to-purple-500",
       accent: "bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400",
       linkedin: "#",
-      email: "elena.rostova@estuscia.com"
+      email: "cos@estuscia.com"
     },
     {
-      name: "Devon Lane",
-      role: "Senior Investor Relations Officer",
-      bio: "Dedicated to guiding your investment onboarding and account setup. Devon handles custom allocations, publishes weekly reporting metrics, and is available for portfolio consultations.",
-      initials: "DL",
+      name: "Anirudh",
+      role: "Sales Team Manager",
+      bio: "Leads the Sales Department by managing the sales team, developing sales strategies, monitoring performance, achieving revenue targets, and strengthening client relationships. Responsible for team productivity, customer acquisition, and delivering consistent business growth through effective sales execution.",
+      initials: "AN",
       color: "from-blue-500 to-sky-400 dark:from-blue-400 dark:to-sky-300",
       accent: "bg-blue-50 dark:bg-blue-950/40 text-blue-500 dark:text-blue-300",
       linkedin: "#",
-      email: "devon.lane@estuscia.com"
+      email: "sales@estuscia.com"
     }
   ];
 
   return (
     <section className="py-20 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 transition-colors duration-300" id="about-section">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/60 px-3.5 py-1.5 rounded-full">
@@ -78,7 +78,7 @@ export default function AboutMembers() {
                 Fiduciary Responsibility & Capital Security
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
-                Estuscia partners with premier custody banks and utilizes isolated escrow channels. Under the leadership of <strong>Rashad Muhammad</strong>, our firm operates with maximum asset auditability and pre-set volatility cut-offs.
+                Estuscia partners with premier custody banks and utilizes isolated escrow channels. Under the leadership of <strong>Shahzeen Khalid</strong>, Estuscia Group operates with strong governance, transparent financial practices, and institutional standards designed to safeguard client interests while driving sustainable long-term growth.
               </p>
             </div>
             <div className="flex gap-4 shrink-0">
@@ -110,7 +110,7 @@ export default function AboutMembers() {
                   <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${member.color} text-white font-black tracking-widest text-xl flex items-center justify-center shadow-md transition-transform group-hover:scale-105`}>
                     {member.initials}
                   </div>
-                  
+
                   {/* Badge */}
                   <span className={`text-[10px] font-bold px-2.5 py-1 rounded-lg uppercase tracking-wider ${member.accent}`}>
                     {idx === 0 ? "Founder" : "Advisor"}
@@ -137,20 +137,20 @@ export default function AboutMembers() {
 
                 {/* Contact Channels / Social Connect */}
                 <div className="mt-6 pt-4 border-t border-slate-200/50 dark:border-slate-700/30 flex items-center gap-3 text-slate-400 dark:text-slate-500">
-                  <a
+                  {/* <a
                     href={member.linkedin}
                     className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors p-1.5 hover:bg-white dark:hover:bg-slate-800 rounded-lg border border-transparent hover:border-slate-200 dark:hover:border-slate-700 cursor-pointer"
                     title="LinkedIn Portfolio"
                   >
                     <Linkedin className="h-4 w-4" />
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href={`mailto:${member.email}`}
                     className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors p-1.5 hover:bg-white dark:hover:bg-slate-800 rounded-lg border border-transparent hover:border-slate-200 dark:hover:border-slate-700 cursor-pointer"
                     title="Direct Email"
                   >
                     <Mail className="h-4 w-4" />
-                  </a>
+                  </a> */}
                   <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-widest font-mono ml-auto flex items-center gap-0.5">
                     <Sparkles className="h-2.5 w-2.5 text-yellow-500" />
                     Verified
